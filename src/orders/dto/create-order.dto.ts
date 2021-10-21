@@ -1,6 +1,6 @@
 export class CreateOrderDto {
+  orderno: string;
   name: string;
-  item: string;
   status: string;
   time: string;
 }

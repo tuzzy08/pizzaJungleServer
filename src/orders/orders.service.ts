@@ -18,7 +18,7 @@ export class OrdersService {
     pusher.trigger('pizza-jungle', 'new-order', { ...order });
     return {
       status: true,
-      data: null,
+      data: { ...order },
       msg: 'Order created',
     };
   }
