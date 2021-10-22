@@ -2,5 +2,4 @@ export class CreateOrderDto {
   orderno: string;
   name: string;
   status: string;
-  time: string;
 }
